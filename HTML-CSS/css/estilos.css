@@ -1,0 +1,154 @@
+/*https://media.contentapi.ea.com/content/dam/apex-legends/common/apex-section-bg-red-grit-texture-xl.jpg.adapt.320w.jpg*/
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-size: 16px;
+    color:#fff;
+    background: #BFC2FF;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  
+  h3 {
+    font-weight: 600;
+    line-height: 1.6;
+  }
+  
+  p {
+    line-height: 1.6;
+    margin:0;
+  }
+  h4,h3,h2{
+    margin:0;
+  }
+  
+  .content {
+    max-width: 960px;
+    /*padding: 48px 24px;*/
+    background: #2F3393;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .box{
+    background: #FBD2D2;
+    box-sizing: border-box;
+    /*border-radius: 10px;*/
+    padding: 10px;
+    flex-basis:30%;
+  }
+  
+  .header {
+    width: 100%;
+    height: 227px;
+    background:#0A0D57;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header-btn {
+    border: 2px solid #BEC0FF;
+    padding: 10px;
+  }
+  .logo{
+    /*float: left;*/
+    height: auto;
+    flex:1;
+    max-width: 62px;
+    height: 41px;
+    margin-left: 50px;
+  }
+  nav {
+    margin-right:  20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex:3;
+    /*align-items: center;*/
+  }
+  
+  nav ul li{
+    list-style: none;
+    margin:0 10px 0 10px;
+    border-bottom: 3px solid #BEC0FF;
+  }
+  
+  .light{
+    font-family: 'Montserrat light'
+  }
+  
+  
+  .box-20{
+    background: #fff;
+    height: 120px;
+    width: 120px;
+    flex:1;
+    margin-right: 10px;
+  }
+  
+  .box-40{
+    background: #fff;
+    height: 224px;
+    width: 234px;
+    margin-bottom: 20px;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .boxes{
+    display: flex;
+    justify-content: space-between;
+  }
+  .txt-circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .circle{
+    background: #fff;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1.2em;
+  }
+  
+  footer{
+    background:#0A0D57;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+  }
+  footer ul{
+    display: flex;
+  }
+  
+  footer ul li{
+    list-style: none;
+    margin:0 10px 0 10px;
+  }
